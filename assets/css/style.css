@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+form {
+    border: 3px solid lightgrey;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 10vh auto auto 40vw;
+}
+
+
+
+body form div input,
+label {
+    display: block;
+}
+
+header p {
+    text-align: center;
+    background: rgb(71, 175, 255);
+    color: white;
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+main {
+    padding: 0 10px;
+}
+
+main p {
+    padding-top: 10px;
+}
+
+main label {
+    font-size: 10px;
+}
+
+main p:first-child {
+    color: rgb(71, 175, 255);
+}
+
+main div:nth-of-type(1) {
+    background: lightgrey;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+main p:nth-of-type(2) {
+    color: rgb(71, 175, 255);
+}
+
+main div:nth-of-type(2) {
+    background: lightgrey;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+main p:nth-of-type(3) {
+    color: rgb(71, 175, 255);
+}
+
+main div:nth-of-type(3) {
+    background: lightgrey;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+main div:last-child input,
+label {
+    display: inline-block;
+}
+
+main div:last-child {
+    padding: 10px 0;
+}
+
+main div:last-child input:first-child {
+    background: rgb(71, 175, 255);
+    color: white;
+    padding: 5px 20px;
+}
+
+main div:last-child input:first-child:hover {
+    background: blue;
+}
